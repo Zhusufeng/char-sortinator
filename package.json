@@ -1,0 +1,11 @@
+{
+  "name": "char-sortinator",
+  "version": "1.0.0",
+  "description": "Take a string and sort lexicographically on server",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Lisa Gee",
+  "license": "ISC"
+}
