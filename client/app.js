@@ -1,8 +1,10 @@
-const submitButton = document.getElementById('submit');
+const sortForm = document.getElementById('sort-form');
 const input = document.getElementById('input');
+console.log('this loaded');
 
-submitButton.addEventListener('submit', () => {
-
+const submitInfo = function (e) {
+  e.preventDefault();
+  console.log('You pushed submit');
   fetch('/sort', {
     method: 'POST',
     headers: new Headers({
@@ -13,4 +15,6 @@ submitButton.addEventListener('submit', () => {
     console.log(data.json);
   });
 
-});
+}
+
+sortForm.addEventListener('submit', submitInfo);
