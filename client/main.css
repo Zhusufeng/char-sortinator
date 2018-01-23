@@ -1,0 +1,17 @@
+body {
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+} 
+
+#main {
+  margin: auto;
+  width: 50%;
+}
+
+#sort-table {
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #CCC;
+}
